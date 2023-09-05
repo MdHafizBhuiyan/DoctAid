@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 .logo-img{
   width: 50px;
@@ -9,6 +10,7 @@
 body{
   background-color: rgb(121, 160, 244);
   color: white;
+  padding-top: 100px;
 }
 li a{
   color: white !important;
@@ -28,4 +30,10 @@ li a{
 a{
   color: white;
   text-decoration: none;
+}
+.card{
+  margin-bottom: 10px;
+}
+nav{
+  background-color: rgb(137, 34, 234);
 }
